@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&display=swap"
+      rel="stylesheet" />
+
+    <title>Я учу JavaScript!</title>
+  </head>
+  <body>
+    <div class="cats">
+      <div class="cats__wrap">
+        <div class="cat__title">
+          <h1 class="cats_title-title" id="title">CATS</h1>
+        </div>
+
+        <div class="cats__img">
+          <img
+            class="cats__img-img"
+            src="./assets/cat1.jpg"
+            alt="Котик"
+            id="image-cat" />
+        </div>
+
+        <div class="cats__button">
+          <button class="cats__button-button" id="prev" onclick="openPrevImg()">
+            Previous
+          </button>
+          <button class="cats__button-button" id="next" onclick="openNextImg()">
+            Next
+          </button>
+        </div>
+
+        <div class="cats__calculate">
+          <h2 class="cats_title-title">Степень ми-ми-мяушности Вашего дома</h2>
+
+          <form class="cats__form" action="/cats">
+            <label for="cats-number"
+              >Сколько у Вас дома котиков? (Мягкие игрушки не считаются, но если
+              очень хочется то кто я такая что бы Вам запретить)
+            </label>
+
+            <input type="number" name="cats-number" id="cats-number" />
+
+            <button
+              class="cats__button-button"
+              type="button"
+              onclick="calculateTotalPrice()">
+              Получить данные
+            </button>
+          </form>
+
+          <p id="cats__total"></p>
+        </div>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

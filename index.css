@@ -1,0 +1,53 @@
+.cats__wrap {
+  max-width: 512px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Catamaran", sans-serif;
+}
+
+.cats_title-title {
+  text-align: center;
+}
+
+.cats__img-img {
+  height: 500px;
+  width: 400px;
+  border-radius: 50px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.cats__button-button {
+  height: 50px;
+  min-width: 150px;
+  border-radius: 50px;
+  background-color: #f4e8d2;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.cats__calculate {
+  margin-top: 20px;
+  background-color: #f4e8d2;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.cats__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.cats__form input[type="number"] {
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #4a3c2f;
+  padding: 0 10px;
+  font-size: 18px;
+}
